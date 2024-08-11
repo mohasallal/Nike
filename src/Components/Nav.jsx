@@ -33,8 +33,8 @@ const Nav = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container">
+    <header className="padding-x py-8 fixed bg-white z-10 w-full shadow-sm">
+      <nav className="flex h-5 justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
